@@ -7,15 +7,15 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center py-4 px-2 sm:px-16 md:px-60 bg-white">
       <nav className=" py-2 px-16 w-full sm:w-1/2">
         <ul className="flex justify-between content-center">
-          <li className="font-main text-xl px-4 group transition duration-300 cursor-pointer">
+          <li className="font-main text-xl text-black px-4 group transition duration-300 cursor-pointer">
             <a href="#venue">VENUE</a>
             <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-px bg-yellow-500"></span>
           </li>
-          <li className="font-main text-xl px-4 group transition duration-300 cursor-pointer">
+          <li className="font-main text-xl text-black px-4 group transition duration-300 cursor-pointer">
             <a href="#info">INFO</a>
             <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-px bg-yellow-500"></span>
           </li>
-          <li className="font-main text-xl px-4 group transition duration-300 cursor-pointer">
+          <li className="font-main text-xl text-black px-4 group transition duration-300 cursor-pointer">
             <a href="#rsvp">RSVP</a>
             <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-px bg-yellow-500"></span>
           </li>
@@ -32,19 +32,23 @@ export default function Home() {
             priority
           />
           <div className="absolute -top-5 left-0 w-full h-full flex items-center justify-center">
-            <h1 className="font-main text-4xl sm:text-5xl">Ben & Josie</h1>
+            <h1 className="font-main text-4xl sm:text-5xl text-black">
+              Ben & Josie
+            </h1>
           </div>
           <div className="absolute top-5 sm:top-10 left-0 pl-2 sm:pl-0 sm:pt-6 w-full h-full flex items-center justify-center">
-            <h1 className="font-main text-lg sm:text-2xl">
+            <h1 className="font-main text-lg sm:text-2xl text-black">
               INVITE YOU TO CELEBRATE
             </h1>
           </div>
           <div className="absolute pt-4 top-10 sm:top-20 left-0 w-full h-full flex items-center justify-center">
-            <h1 className="font-main text-lg sm:text-2xl">THEIR WEDDING!</h1>
+            <h1 className="font-main text-lg sm:text-2xl text-black">
+              THEIR WEDDING!
+            </h1>
           </div>
         </div>
         <div className="py-6 flex justify-center">
-          <h1 className="font-main text-2xl">9th DECEMBER 2023</h1>
+          <h1 className="font-main text-2xl text-black">9th DECEMBER 2023</h1>
         </div>
       </div>
       <div className="px-2 md:px-16" id="venue">
