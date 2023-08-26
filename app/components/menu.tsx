@@ -18,7 +18,7 @@ const Menu = () => {
           <div className="flex flex-col items-center py-2">
             <h1 className="font-main text-xl">STARTERS:</h1>
             <p className="text-sm sm:text-base font-secondary text-center py-0.5 text-gray-400">
-              Spring pea and pancetta; Sweet potato and parsnip soup
+              Sweet potato and parsnip soup
             </p>
             <p className="text-sm sm:text-base font-secondary text-center py-0.5 text-gray-400">
               Gin cured salmon with confit beetroot, pickled cucumber,
